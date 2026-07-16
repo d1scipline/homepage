@@ -73,3 +73,61 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+:root {
+  --primary-color: #0891b2;
+}
+
+@media (max-width: 430px) {
+  .header {
+    margin-top: -65vw;
+    padding: 80vw 0;
+    transform: skew(0deg, -35deg);
+    background: var(--primary-color);
+    position: relative;
+  }
+
+  .header-content {
+    position: absolute;
+    top: 60vw;
+    transform: skew(0deg, 35deg);
+    padding: 10vw;
+  }
+
+  .header-content h1 {
+    position: relative;
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-container h1 {
+    position: absolute;
+    bottom: 0px;
+    left: 1vw;
+  }
+
+  main {
+    margin-top: 45vw;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.image-container h1 {
+  padding: 10px;
+  font-size: 3rem;
+  color: white;
+  font-weight: 200;
+}
