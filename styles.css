@@ -76,6 +76,7 @@ h6 {
 
 :root {
   --primary-color: #0891b2;
+  --text-color: #565656;
 }
 
 @media (max-width: 430px) {
@@ -106,10 +107,33 @@ h6 {
     position: absolute;
     bottom: 0px;
     left: 1vw;
+    padding: 16px;
   }
 
   main {
     margin-top: 45vw;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me h2 {
+    font-size: 10vw;
+  }
+
+  .about-me p {
+    padding: 16px 16px;
+    font-size: 5vw;
+  }
+
+  i {
+    font-size: 8vw;
   }
 }
 
@@ -119,15 +143,28 @@ body {
   font-family: "roboto", sans-serif;
 }
 
+p {
+  color: var(--text-color);
+}
+
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", sans-serif;
+  font-weight: 200;
 }
 
 .image-container h1 {
-  padding: 10px;
   font-size: 3rem;
   color: white;
   font-weight: 200;
+}
+
+h2,
+h3 {
+  color: black;
+}
+
+.footer-title {
+  color: white;
 }
