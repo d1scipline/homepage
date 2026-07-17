@@ -212,6 +212,61 @@ h6 {
     padding: 0px 16px;
     margin-bottom: 24px;
   }
+
+  footer {
+    margin-top: 15vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-title {
+    align-self: center;
+    font-size: 12vw;
+    padding: 8px 0;
+  }
+
+  footer img:has(+ p) {
+    display: none;
+  }
+
+  .footer-image {
+    height: 150vw;
+    object-fit: cover;
+  }
+
+  footer p {
+    padding: 0 16px;
+    font-size: 5vw;
+    font-weight: 300;
+  }
+
+  .address {
+    margin-top: 5vw;
+  }
+
+  .phone {
+    margin-top: 5vw;
+  }
+
+  .footer-para {
+    font-size: 6vw;
+    font-weight: 400;
+  }
+
+  .footer-icons {
+    align-self: center;
+    padding: 16px 0;
+    display: flex;
+    gap: 2vw;
+  }
+
+  .footer-icons i {
+    font-size: 10vw;
+  }
+}
+
+footer p {
+  color: white;
 }
 
 body {
@@ -268,4 +323,8 @@ h3 {
 
 .sixth-project {
   background-color: #5e8f4d;
+}
+
+footer {
+  background-color: var(--primary-color);
 }
