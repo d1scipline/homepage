@@ -263,6 +263,16 @@ h6 {
   .footer-icons i {
     font-size: 10vw;
   }
+
+  .header-icons {
+    margin-top: 5vw;
+    display: flex;
+    gap: 3vw;
+  }
+
+  .header-icons i {
+    font-size: 10vw;
+  }
 }
 
 footer p {
