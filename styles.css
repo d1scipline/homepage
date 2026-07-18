@@ -87,21 +87,17 @@ h6 {
     transform: skew(0deg, -35deg);
     background: var(--primary-color);
     position: relative;
-    margin-bottom: 100vw;
+    margin-bottom: 110vw;
   }
 
   .header-content {
     position: absolute;
     top: 60vw;
     transform: skew(0deg, 35deg);
-    padding: 10vw;
-  }
-
-  .header-content h1 {
-    position: relative;
   }
 
   .image-container {
+    margin: 10vw;
     position: relative;
   }
 
