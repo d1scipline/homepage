@@ -87,6 +87,7 @@ h6 {
     transform: skew(0deg, -35deg);
     background: var(--primary-color);
     position: relative;
+    margin-bottom: 100vw;
   }
 
   .header-content {
