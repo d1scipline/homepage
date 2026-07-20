@@ -472,6 +472,9 @@ h6 {
   }
 }
 
+@media (min-width: 1025px) {
+}
+
 footer p {
   color: white;
 }
@@ -480,6 +483,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "roboto", sans-serif;
+  background-color: white;
 }
 
 p {
