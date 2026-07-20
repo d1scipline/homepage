@@ -271,6 +271,11 @@ h6 {
   .header-icons i {
     font-size: 10vw;
   }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 501px) {
@@ -409,6 +414,10 @@ h6 {
   .card p {
     padding: 1vw;
     font-size: 3vw;
+  }
+
+  footer {
+    margin-top: 15vw;
   }
 }
 
