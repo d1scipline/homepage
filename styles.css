@@ -340,6 +340,76 @@ h6 {
   .header-icons i {
     font-size: 5vw;
   }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 10vw;
+  }
+
+  main h2 {
+    font-size: 6vw;
+    margin-bottom: 16px;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+  }
+
+  .image-placeholder {
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+  }
+
+  .image-placeholder span {
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .card img,
+  .card i {
+    height: 4vw;
+    font-size: 4vw;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 40vw;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.15);
+    padding-bottom: 4vw;
+  }
+
+  .icons {
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1vw;
+  }
+
+  .project-title h3 {
+    font-size: 4vw;
+  }
+
+  .card p {
+    padding: 1vw;
+    font-size: 3vw;
+  }
 }
 
 footer p {
