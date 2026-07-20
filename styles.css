@@ -275,6 +275,8 @@ h6 {
   .footer-info {
     display: flex;
     flex-direction: column;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
   }
 }
 
@@ -418,6 +420,55 @@ h6 {
 
   footer {
     margin-top: 15vw;
+    padding: 5vw 5vw;
+    padding-bottom: 10vw;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+  }
+
+  .footer-image {
+    object-fit: cover;
+    height: 110%;
+  }
+
+  .footer-title {
+    font-size: 6vw;
+  }
+
+  .address,
+  .footer-para {
+    font-size: 2.7vw;
+  }
+
+  .phone,
+  .email {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    font-size: 2.5vw;
+  }
+
+  .phone img,
+  .email img {
+    height: 4vw;
+    filter: invert(100%) sepia(0%) saturate(7472%) hue-rotate(14deg)
+      brightness(102%) contrast(101%);
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+
+  .footer-icons {
+    margin-top: 2vw;
+    font-size: 4vw;
+    display: flex;
+    gap: 2vw;
   }
 }
 
