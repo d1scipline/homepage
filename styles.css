@@ -280,7 +280,7 @@ h6 {
   }
 }
 
-@media (min-width: 501px) {
+@media (min-width: 501px) and (max-width: 1024px) {
   .header {
     margin-top: -65vw;
     padding: 60vw 0;
@@ -473,6 +473,82 @@ h6 {
 }
 
 @media (min-width: 1025px) {
+  html {
+    display: flex;
+    justify-content: center;
+  }
+
+  body {
+    max-width: 1920px;
+  }
+
+  .header {
+    margin-top: -65vw;
+    padding: 47vw 0;
+    transform: skew(0deg, -12deg);
+    background: var(--primary-color);
+    position: relative;
+    margin-bottom: 20vw;
+  }
+
+  .header-content {
+    padding: 2vw;
+    margin-right: 8vw;
+    margin-left: 8vw;
+    top: 72vw;
+    display: grid;
+    gap: 6vw;
+    grid-template-columns: 3fr 6fr;
+    position: absolute;
+    transform: skew(0deg, 12deg);
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-container img {
+    height: 22vw;
+    width: 22vw;
+    object-fit: cover;
+    transform-origin: center;
+    transform: scale(1.5);
+  }
+
+  .image-container h1 {
+    position: absolute;
+    justify-self: center;
+    bottom: -4.7vw;
+    font-size: 4vw;
+    white-space: nowrap;
+  }
+
+  .about-me {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1vw;
+  }
+
+  .about-me p {
+    font-size: 1.5vw;
+  }
+
+  .header-icons {
+    align-self: flex-end;
+    font-size: 3vw;
+    display: flex;
+    gap: 1.5vw;
+  }
+
+  .about-me h2 {
+    font-size: 3.5vw;
+  }
 }
 
 footer p {
