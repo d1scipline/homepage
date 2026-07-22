@@ -478,17 +478,13 @@ h6 {
     justify-content: center;
   }
 
-  body {
-    max-width: 1920px;
-  }
-
   .header {
     margin-top: -65vw;
     padding: 47vw 0;
     transform: skew(0deg, -12deg);
     background: var(--primary-color);
     position: relative;
-    margin-bottom: 20vw;
+    margin-bottom: 10vw;
   }
 
   .header-content {
@@ -548,6 +544,67 @@ h6 {
 
   .about-me h2 {
     font-size: 3.5vw;
+  }
+
+  .my-work {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 7vw;
+  }
+
+  .my-work h2 {
+    font-size: 2.7vw;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4vw;
+  }
+
+  .card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  .image-placeholder {
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .project-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0vw 1vw;
+    font-size: 2vw;
+    align-items: center;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    gap: 1vw;
+  }
+
+  .icons img {
+    height: 2.8vw;
+  }
+
+  .card p {
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1.5vw;
   }
 }
 
