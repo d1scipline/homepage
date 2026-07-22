@@ -606,6 +606,56 @@ h6 {
     margin-right: 1vw;
     font-size: 1.5vw;
   }
+
+  footer {
+    display: grid;
+    grid-template-columns: 48fr 75fr;
+    gap: 4vw;
+    padding: 6vw 8vw;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-title {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+  }
+
+  .footer-para {
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .address {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+  }
+
+  .phone,
+  .email {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    font-size: 1.5vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .phone img,
+  .email img {
+    height: 2vw;
+    filter: invert(100%) sepia(0%) saturate(7472%) hue-rotate(14deg)
+      brightness(102%) contrast(101%);
+  }
+
+  .footer-icons {
+    margin-top: 2vw;
+    display: flex;
+    gap: 2vw;
+    font-size: 3vw;
+  }
 }
 
 footer p {
